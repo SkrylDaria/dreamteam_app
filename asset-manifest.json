@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/dreamteam_app/static/css/main.6a7efa20.css",
-    "main.js": "/dreamteam_app/static/js/main.b5070617.js",
+    "main.css": "/dreamteam_app/static/css/main.113417a2.css",
+    "main.js": "/dreamteam_app/static/js/main.36d92c78.js",
     "index.html": "/dreamteam_app/index.html",
-    "main.6a7efa20.css.map": "/dreamteam_app/static/css/main.6a7efa20.css.map",
-    "main.b5070617.js.map": "/dreamteam_app/static/js/main.b5070617.js.map"
+    "main.113417a2.css.map": "/dreamteam_app/static/css/main.113417a2.css.map",
+    "main.36d92c78.js.map": "/dreamteam_app/static/js/main.36d92c78.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a7efa20.css",
-    "static/js/main.b5070617.js"
+    "static/css/main.113417a2.css",
+    "static/js/main.36d92c78.js"
   ]
 }
