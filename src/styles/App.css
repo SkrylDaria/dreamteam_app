@@ -10,6 +10,11 @@
     background-size: 100%;
 }
 
+p {
+    text-align: center;
+    align-items: center;
+    color: white;
+}
 #root {
     display: flex;
     width: 100%;
@@ -50,6 +55,7 @@ button {
 div.players {
     display: inline-block;
     margin-top: 30px;
+    text-align: center;
 } 
 
 div.riflers {
@@ -58,17 +64,6 @@ div.riflers {
 
 div.place {
     text-align: center;
-}
-
-.splitScreen {
-    display:grid;
-    grid-template-columns: 2fr 1fr;
-}
-.topPane {
-    width: '70%',
-}
-.bottomPane {
-    width: '30%',
 }
 
 .riflers {
@@ -100,3 +95,34 @@ div.place {
     width: 200;
     height: 216;
 }
+  
+.blog{
+    max-width:300px;
+    margin:0 auto;
+    display:block;
+    text-align:center;
+    position:relative;
+  }
+  .blog img{
+    max-width:250px;
+  }
+  .blog .text{
+    opacity:0;
+    position:absolute;
+    bottom:0;
+    text-align: left;
+    left: 50%;
+    transform:translate(-50%, 0);
+    transition: 0.5s;
+    width:98%;
+    font-size:18px;
+    background-color:rgba(0, 0, 0, 0.8);
+    padding-top: 77px;
+    padding-bottom: 77px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color:#fff;
+  }
+  .blog:hover .text{
+    opacity:1
+};
