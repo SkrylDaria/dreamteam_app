@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    width: 100%;
+    background-image: url("https://www.logo.wine/a/logo/Counter-Strike%3A_Global_Offensive/Counter-Strike%3A_Global_Offensive-Logo.wine.svg");
+    background-size: 100%;
+}
+
+#root {
+    display: flex;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    border: 4px solid blue;
+    background-color: azure;
+    display: inline-block;
+    width: 40%;
+    padding: 20px;
+    font-family: Monaco;
+}
+
+
+button {
+    border: 1px solid #0066cc;
+    background-color: #0099cc;
+    color: #ffffff;
+    padding: 5px 10px;
+  }
+  
+  button:hover {
+    border: 1px solid #0099cc;
+    background-color: #00aacc;
+    color: #ffffff;
+    padding: 5px 10px;
+  }
+  
+  button:disabled{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+  }
+
+div.players {
+    display: inline-block;
+    margin-top: 30px;
+} 
+
+div.riflers {
+    display: block;
+}
+
+div.place {
+    text-align: center;
+}
+
+.splitScreen {
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+}
+.topPane {
+    width: '70%',
+}
+.bottomPane {
+    width: '30%',
+}
+
+.riflers {
+    background-color: lavender;
+    width: 203px;
+    height: 220px;
+    border: solid blueviolet;
+    border-radius: 30px;
+    border-width: medium;
+    
+}
+
+.riflers img {
+    width: 200;
+    height: 216;
+}
+
+.dreams {
+    background-color: lightcyan;
+    width: 203px;
+    height: 220px;
+    border: solid greenyellow;
+    border-radius: 30px;
+    border-width: medium;
+    
+}
+
+.dreams img {
+    width: 200;
+    height: 216;
+}
