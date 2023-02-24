@@ -1,10 +1,5 @@
 import React, {useState} from 'react';
-//import Counter from './Components/Counter';
-//import ClassCounter from './Components/ClassCounter';
 import './styles/App.css'
-//import PostItem from './Components/PostItem';
-//import './images'
-//import bit2 from './images/bit2.png';
 import Plays from './Plays';
 import Dream from './Dream';
 function App() {
@@ -94,7 +89,7 @@ function App() {
     <div className="App place">
       <title>DreamTeam app</title>
       <h1 className='wid' style={{color: "red"}}>Собери свою команду мечты
-        <h6 style={{color: "black"}}>Правила игры: команда состоит из пяти игроков. В идеале, конечно, 3 рифлера, снайпер и кэп, но тут можно пофантазировать и бахнуть симпла и кэдиана в одну команду</h6>
+        <h6 style={{color: "black"}}>Команда в CS:GO состоит из пяти игроков. Используя статистику доступных участников, выбери понравившихся игроков и отправь их Major!</h6>
       </h1>
       <div>
         <h1 className='wid'>Доступные игроки</h1>
