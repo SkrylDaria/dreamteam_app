@@ -1,8 +1,6 @@
 import React from 'react';
 import './styles/App.css'
 const Dream = (props) => {
-  //const [dreamRifls, setDreamRifls] = useState();
-//const [message, setMessage] = useState('');
 return (
   <div className='players'>
       <div className='dreams'><img src={props.url} alt="display" width="200px" height="216px" /> </div>
