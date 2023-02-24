@@ -1,8 +1,4 @@
 import React from 'react';
-//import Dream from './Dream';
-
-//import Dream from './Dream';
-//import Dream from './Dream';
 import './styles/App.css'
 const Dream = (props) => {
   //const [dreamRifls, setDreamRifls] = useState();
