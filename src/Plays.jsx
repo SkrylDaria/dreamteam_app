@@ -1,9 +1,4 @@
 import React from 'react';
-//import Dream from './Dream';
-
-
-//import Dream from './Dream';
-//import Dream from './Dream';
 import './styles/App.css'
 const Plays = (props) => {
 
